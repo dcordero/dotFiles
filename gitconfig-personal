@@ -1,0 +1,24 @@
+[user]
+    name = David Cordero
+    email = dcorderoramirez@gmail.com
+    user = dcordero
+
+[core]
+    editor = vim
+
+[color]
+    ui = true
+
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+
+[alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
+    lg = log -p
+
