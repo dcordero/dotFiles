@@ -54,3 +54,4 @@ sudo cp -r /Volumes/Google\ Chrome/Google\ Chrome.app /Applications/
 * [Screenhero](https://screenhero.com)
 * [Slack](https://slack.com) 
 * [Spotify](https://www.spotify.com)
+* [Pixelmator](http://www.pixelmator.com)
