@@ -56,3 +56,5 @@ sudo cp -r /Volumes/Google\ Chrome/Google\ Chrome.app /Applications/
 * [Spotify](https://www.spotify.com)
 * [Pixelmator](http://www.pixelmator.com)
 * [Giphy Capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12)
+* [Xcode](https://itunes.apple.com/ch/app/xcode/id497799835?mt=12)
+* [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)
