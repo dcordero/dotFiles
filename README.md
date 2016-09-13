@@ -50,11 +50,12 @@ sudo cp -r /Volumes/Google\ Chrome/Google\ Chrome.app /Applications/
 
 # More things to manually install:
 
+* [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)
+* [Giphy Capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12)
 * [iTerm2](https://www.iterm2.com)
 * [Screenhero](https://screenhero.com)
 * [Slack](https://slack.com) 
 * [Spotify](https://www.spotify.com)
 * [Pixelmator](http://www.pixelmator.com)
-* [Giphy Capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12)
+* [Synx](https://github.com/venmo/synx)
 * [Xcode](https://itunes.apple.com/ch/app/xcode/id497799835?mt=12)
-* [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)
