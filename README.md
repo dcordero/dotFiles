@@ -59,3 +59,4 @@ sudo cp -r /Volumes/Google\ Chrome/Google\ Chrome.app /Applications/
 * [Pixelmator](http://www.pixelmator.com)
 * [Synx](https://github.com/venmo/synx)
 * [Xcode](https://itunes.apple.com/ch/app/xcode/id497799835?mt=12)
+* [VLC](http://www.videolan.org/vlc/index.html)
