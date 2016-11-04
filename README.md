@@ -1,64 +1,74 @@
 # Custom Settings and dot files
 
 This repo contains my custom dot files and personal settings.
+ 
+# Settings
 
-# Custom .bash_profile
+* Activate Debug menu in Safari:
 ```
-ln -s `pwd`/bash_profile ~/.bash_profile
-```
-
-# Custom .gitconfig
-```
-ln -s `pwd`/gitconfig-work ~/.gitconfig
-ln -s `pwd`/gitconfig-personal ~/.gitconfig
+defaults write com.apple.Safari IncludeDebugMenu 1
 ```
 
-# Custom .vimrc
-```
-ln -s `pwd`/vimrc ~/.vimrc
-```
-
-# Set custom wallpaper
-```
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/dcordero/Sources/dotFiles/wallpaper.jpg"'
-```
-
-# Custom Xcode theme
+* Custom Xcode theme
 ```
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/dcordero.dvtcolortheme
 ```
 
-# Activate Debug menu in Safari
+* Custom wallpaper
 ```
-defaults write com.apple.Safari IncludeDebugMenu 1
-```
-
-# To install:
-
-## Fastlane & Cocoapods
-```
-sudo gem install fastlane cocoapods -V
+osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/dcordero/Sources/dotFiles/wallpaper.jpg"'
 ```
 
-## Google Chrome
+* Custom .vimrc
 ```
-wget https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
-open ~/Downloads/googlechrome.dmg
-sudo cp -r /Volumes/Google\ Chrome/Google\ Chrome.app /Applications/
+ln -s `pwd`/vimrc ~/.vimrc
 ```
 
-# More things to manually install:
+* Custom .bash_profile
+```
+ln -s `pwd`/bash_profile ~/.bash_profile
+```
 
-* [Apple Configurator](https://itunes.apple.com/us/app/apple-configurator-2/id1037126344?mt=12)
-* [Giphy Capture](https://itunes.apple.com/us/app/giphy-capture.-the-gif-maker/id668208984?mt=12)
+* Custom .gitconfig
+```
+ln -s `pwd`/gitconfig-work ~/.gitconfig
+ln -s `pwd`/gitconfig-personal ~/.gitconfig
+```
+
+# Things to install from AppStore:
+
+* Caffeine
+* Giphy Capture
+* Kindle
+* Omnifocus 2
+* Slack
+
+# More things to install from internet:
+
+* [Apple Configurator](https://developer.apple.com)
+* [Google Chrome](https://www.google.com/chrome/)
+* [Homebrew](http://brew.sh)
 * [iTerm2](https://www.iterm2.com)
 * [Screenhero](https://screenhero.com)
-* [Slack](https://slack.com) 
 * [Spotify](https://www.spotify.com)
 * [Pixelmator](http://www.pixelmator.com)
+* [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
 * [Synx](https://github.com/venmo/synx)
-* [Xcode](https://itunes.apple.com/ch/app/xcode/id497799835?mt=12)
+* [Xcode](https://developer.apple.com)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [VLC](http://www.videolan.org/vlc/index.html)
+
+# More things to do
+
+* Turn on zoom in Accessibility settings
+* Autohide the Dock
+* Configure 5 desktops
+* Configure shortcuts to navigate desktops
+* Dark menu bar and Dock
+* Trackpad tap to click
+* Misson control disable automatic rearrange of Spaces
+* Show keychain status on the menu bar
+* Show battery percent on the menu bar
+* Show bluetooth on the menu bar
