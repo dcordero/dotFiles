@@ -47,6 +47,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 # More things to install from internet:
 
 * [Apple Configurator](https://developer.apple.com)
+* [Charles Proxy](https://www.charlesproxy.com)
 * [Google Chrome](https://www.google.com/chrome/)
 * [Homebrew](http://brew.sh)
 * [iTerm2](https://www.iterm2.com)
