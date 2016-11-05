@@ -40,6 +40,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 
 * Caffeine
 * Giphy Capture
+* iRamDisk
 * Kindle
 * Omnifocus 2
 * Slack
