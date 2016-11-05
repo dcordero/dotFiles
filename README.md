@@ -66,6 +66,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 
 * Turn on zoom in Accessibility settings
 * Autohide the Dock
+* Autohide menu bar
 * Configure 5 desktops
 * Configure shortcuts to navigate desktops
 * Dark menu bar and Dock
