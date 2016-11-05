@@ -61,6 +61,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [VLC](http://www.videolan.org/vlc/index.html)
+* [Vox Player](http://coppertino.com)
 
 # More things to do
 
