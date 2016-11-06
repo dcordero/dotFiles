@@ -62,6 +62,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [VLC](http://www.videolan.org/vlc/index.html)
 * [Vox Player](http://coppertino.com)
+* [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
 
 # More things to do
 
@@ -76,3 +77,4 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * Show keychain status on the menu bar
 * Show battery percent on the menu bar
 * Show bluetooth on the menu bar
+* Configure Inconsolate Font in Xcode and iTerm
