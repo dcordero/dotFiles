@@ -59,6 +59,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [Skype](https://www.skype.com/en/)
 * [Synx](https://github.com/venmo/synx)
 * [Xcode](https://developer.apple.com)
+* [Synergy](http://symless.com/synergy/)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [VLC](http://www.videolan.org/vlc/index.html)
