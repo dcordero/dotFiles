@@ -56,6 +56,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [Spotify](https://www.spotify.com)
 * [Pixelmator](http://www.pixelmator.com)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
+* [Skype](https://www.skype.com/en/)
 * [Synx](https://github.com/venmo/synx)
 * [Xcode](https://developer.apple.com)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
@@ -78,3 +79,4 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * Show battery percent on the menu bar
 * Show bluetooth on the menu bar
 * Configure Inconsolate Font in Xcode and iTerm
+* Disable Siri
