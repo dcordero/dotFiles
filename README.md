@@ -48,6 +48,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 
 # More things to install from internet:
 
+* [Android Studio](https://developer.android.com/studio)
 * [Apple Configurator](https://developer.apple.com)
 * [Charles Proxy](https://www.charlesproxy.com)
 * [Google Chrome](https://www.google.com/chrome/)
