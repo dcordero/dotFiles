@@ -44,6 +44,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * Kindle
 * Omnifocus 2
 * Slack
+* Pixelmator
 
 # More things to install from internet:
 
@@ -54,7 +55,6 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [iTerm2](https://www.iterm2.com)
 * [Screenhero](https://screenhero.com)
 * [Spotify](https://www.spotify.com)
-* [Pixelmator](http://www.pixelmator.com)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
 * [Skype](https://www.skype.com/en/)
 * [Synx](https://github.com/venmo/synx)
