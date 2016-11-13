@@ -1,5 +1,5 @@
 "" Custom colorscheme
-colorscheme pablo
+colorscheme ron
 
 "" Deactivate beep sound
 set vb
@@ -48,5 +48,9 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 
+"" Activate mouse
+set mouse=a
+
 "" Pathogen
 execute pathogen#infect()
+
