@@ -38,7 +38,6 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 
 # Things to install from AppStore:
 
-* Caffeine
 * Giphy Capture
 * iRamDisk
 * Kindle
@@ -54,6 +53,7 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [Google Chrome](https://www.google.com/chrome/)
 * [Homebrew](http://brew.sh)
 * [iTerm2](https://www.iterm2.com)
+* [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 * [Screenhero](https://screenhero.com)
 * [Spotify](https://www.spotify.com)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
