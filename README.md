@@ -54,10 +54,12 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * [iTerm2](https://www.iterm2.com)
 * [Screenhero](https://screenhero.com)
 * [Spotify](https://www.spotify.com)
+* [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Pixelmator](http://www.pixelmator.com)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
 * [Skype](https://www.skype.com/en/)
 * [Synx](https://github.com/venmo/synx)
+* [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
 * [Xcode](https://developer.apple.com)
 * [Synergy](http://symless.com/synergy/)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
@@ -81,3 +83,5 @@ ln -s `pwd`/gitconfig-personal ~/.gitconfig
 * Show bluetooth on the menu bar
 * Configure Inconsolate Font in Xcode and iTerm
 * Disable Siri
+* Disable adjust keyboard brightness in low light (Settings -> Keyboard)
+
