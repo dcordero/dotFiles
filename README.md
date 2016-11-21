@@ -32,8 +32,7 @@ ln -s `pwd`/bash_profile ~/.bash_profile
 
 * Custom .gitconfig
 ```
-ln -s `pwd`/gitconfig-work ~/.gitconfig
-ln -s `pwd`/gitconfig-personal ~/.gitconfig
+ln -s `pwd`/gitconfig ~/.gitconfig
 ```
 
 # Things to install from AppStore:
