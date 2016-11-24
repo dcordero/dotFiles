@@ -87,3 +87,4 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 * Disable adjust keyboard brightness in low light (Settings -> Keyboard)
 * Activate unlimited scrollback in iTerm
 * Silence bell in iTerm
+* Map Caps Lock key to ESC
