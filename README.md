@@ -85,4 +85,4 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 * Configure Inconsolate Font in Xcode and iTerm
 * Disable Siri
 * Disable adjust keyboard brightness in low light (Settings -> Keyboard)
-
+* Activate unlimited scrollback in iTerm
