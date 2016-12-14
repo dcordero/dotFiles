@@ -2,7 +2,6 @@
 # Terminal Custom Color and Settings
 CLICOLOR=1
 LSCOLORS=gxfxcxdxbxegedabagacad
-export PS1='\[\033[01;37m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
 export TERM=xterm-color
 
 # Git
@@ -24,3 +23,10 @@ alias grep='grep --color=auto'
 
 # Vim
 alias vimnt='vim -c "NERDTree"'
+
+# Powerline Shell PS1
+function _powerline_ps1() {
+    PS1="$(~/powerline-shell.py $? 2> /dev/null)"
+}
+
+PROMPT_COMMAND="_powerline_ps1; $PROMPT_COMMAND"
