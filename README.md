@@ -68,6 +68,7 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 * [VLC](http://www.videolan.org/vlc/index.html)
 * [Vox Player](http://coppertino.com)
 * [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
+* [Powerline Shell](https://github.com/banga/powerline-shell)
 
 # More things to do
 
