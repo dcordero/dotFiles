@@ -68,6 +68,7 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 * [VLC](http://www.videolan.org/vlc/index.html)
 * [Vox Player](http://coppertino.com)
 * [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
+* [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.otf)
 * [Powerline Shell](https://github.com/banga/powerline-shell)
 
 # More things to do
@@ -83,7 +84,8 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 * Show keychain status on the menu bar
 * Show battery percent on the menu bar
 * Show bluetooth on the menu bar
-* Configure Inconsolate Font in Xcode and iTerm
+* Configure Inconsolate Font in Xcode
+* Configure Meslo Font in iTerm2
 * Disable Siri
 * Disable adjust keyboard brightness in low light (Settings -> Keyboard)
 * Activate unlimited scrollback in iTerm
