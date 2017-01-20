@@ -30,3 +30,9 @@ function _powerline_ps1() {
 }
 
 PROMPT_COMMAND="_powerline_ps1; $PROMPT_COMMAND"
+
+# Lockscreen
+alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
+
+# Ruby rvenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
