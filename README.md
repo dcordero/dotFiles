@@ -43,6 +43,7 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 * Omnifocus 2
 * Slack
 * Pixelmator
+* The Unarchiver
 
 # More things to install from internet:
 
