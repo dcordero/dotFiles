@@ -35,6 +35,11 @@ ln -s `pwd`/bash_profile ~/.bash_profile
 ln -s `pwd`/gitconfig ~/.gitconfig
 ```
 
+* Avoid iTunes launch when pressing media buttons
+```
+launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
+```
+
 # Things to install from AppStore:
 
 * Giphy Capture
