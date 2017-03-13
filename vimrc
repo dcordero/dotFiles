@@ -1,8 +1,14 @@
 "" Custom colorscheme
 colorscheme ron
 
+" http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287
+set noswapfile 
+
+" Reload files changed outside vim
+set autoread 
+
 "" Deactivate beep sound
-set vb
+set visualbell
 set noerrorbells
 
 "" Indentation and colours
@@ -17,7 +23,12 @@ set showmatch
 
 "" Line number, and cursor position
 set number
+set numberwidth=5
 set ruler
+
+" Open new split panes to right and bottom, which feels more natural
+set splitbelow
+set splitright
 
 "" Bash behaviour
 set wildmode=longest,list:longest
@@ -49,8 +60,19 @@ autocmd BufReadPost *
      \ endif
 
 "" Activate mouse
+set ttyfast
 set mouse=a
 
 "" Pathogen
 execute pathogen#infect()
+
+" Quicker window movement
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-h> <C-w>h
+nnoremap <C-l> <C-w>l
+
+" Use tab to jump between blocks
+nnoremap <tab> %
+vnoremap <tab> %
 
