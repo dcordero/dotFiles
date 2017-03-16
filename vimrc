@@ -1,11 +1,12 @@
 "" Custom colorscheme
-colorscheme ron
+colorscheme desert
+set guifont=Monaco:h14
 
 " http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287
-set noswapfile 
+set noswapfile
 
 " Reload files changed outside vim
-set autoread 
+set autoread
 
 "" Deactivate beep sound
 set visualbell
@@ -48,10 +49,13 @@ map <F2> :wall<cr>:make<cr>
 "" Highlighted and incremental search
 set incsearch
 set hlsearch
+nnoremap <silent> <leader>, :noh<cr>
+set showmatch
 
 "" Custom status line
 set statusline=%F%m%r%h%w\ [%{&ff}]\ [%Y]\ [HEX=\%02.2B]\ [X=%04l\ Y=%03v]\ [LEN=%L]
 set cursorline
+hi CursorLine cterm=NONE ctermbg=DarkBlue ctermfg=white
 
 "" Always open in the last edited position
 autocmd BufReadPost *
@@ -75,4 +79,17 @@ nnoremap <C-l> <C-w>l
 " Use tab to jump between blocks
 nnoremap <tab> %
 vnoremap <tab> %
+
+"" Relative numbers and toggle
+function! NumberToggle()
+  if(&relativenumber == 1)
+    set norelativenumber
+  else
+    set relativenumber
+  endif
+endfunc
+
+set relativenumber
+nnoremap <C-n> :call NumberToggle()<cr>
+
 
