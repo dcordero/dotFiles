@@ -18,7 +18,7 @@ syntax on
 set expandtab
 set tabstop=4
 set cindent
-set shiftwidth=2
+set shiftwidth=4
 set autoindent
 set showmatch
 
