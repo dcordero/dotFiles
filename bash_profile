@@ -36,3 +36,4 @@ alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/
 
 # Ruby rvenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+eval $(/usr/libexec/path_helper -s)

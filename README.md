@@ -4,41 +4,31 @@ This repo contains my custom dot files and personal settings.
  
 # Settings
 
-* Activate Debug menu in Safari:
+For getting an initial configuration run the following command:
 ```
-defaults write com.apple.Safari IncludeDebugMenu 1
-```
-
-* Custom Xcode theme
-```
-mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
-ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/dcordero.dvtcolortheme
+./bootstrap.sh
 ```
 
-* Custom wallpaper
-```
-osascript -e 'tell application "Finder" to set desktop picture to POSIX file "/Users/dcordero/Sources/dotFiles/wallpaper.jpg"'
-```
+# More things to configure 
 
-* Custom .vimrc
-```
-ln -s `pwd`/vimrc ~/.vimrc
-```
-
-* Custom .bash_profile
-```
-ln -s `pwd`/bash_profile ~/.bash_profile
-```
-
-* Custom .gitconfig
-```
-ln -s `pwd`/gitconfig ~/.gitconfig
-```
-
-* Avoid iTunes launch when pressing media buttons
-```
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
-```
+* Turn on zoom in Accessibility settings
+* Autohide menu bar
+* Configure 5 desktops
+* Configure shortcuts to navigate desktops
+* Dark menu bar and Dock
+* Trackpad tap to click
+* Misson control disable automatic rearrange of Spaces
+* Show keychain status on the menu bar
+* Show battery percent on the menu bar
+* Show bluetooth on the menu bar
+* Configure Inconsolate Font in Xcode
+* Configure Meslo Font in iTerm2
+* Disable Siri
+* Disable adjust keyboard brightness in low light (Settings -> Keyboard)
+* Activate unlimited scrollback in iTerm
+* Silence bell in iTerm
+* Map Caps Lock key to ESC (Settings -> Keyboard -> Modifier Keys)
+* Disable "Correct spelling automatically" (Settings -> Keyboard)
 
 # Things to install from AppStore:
 
@@ -77,24 +67,3 @@ launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 * [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.otf)
 * [Powerline Shell](https://github.com/banga/powerline-shell)
 
-# More things to do
-
-* Turn on zoom in Accessibility settings
-* Autohide the Dock
-* Autohide menu bar
-* Configure 5 desktops
-* Configure shortcuts to navigate desktops
-* Dark menu bar and Dock
-* Trackpad tap to click
-* Misson control disable automatic rearrange of Spaces
-* Show keychain status on the menu bar
-* Show battery percent on the menu bar
-* Show bluetooth on the menu bar
-* Configure Inconsolate Font in Xcode
-* Configure Meslo Font in iTerm2
-* Disable Siri
-* Disable adjust keyboard brightness in low light (Settings -> Keyboard)
-* Activate unlimited scrollback in iTerm
-* Silence bell in iTerm
-* Map Caps Lock key to ESC (Settings -> Keyboard -> Modifier Keys)
-* Disable "Correct spelling automatically" (Settings -> Keyboard)

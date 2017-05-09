@@ -6,10 +6,8 @@ ln -s `pwd`/bash_profile ~/.bash_profile
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
-echo "Install Vim 8"
+echo "Install and configure Vim"
 brew install vim --with-override-system-vi --without-ruby
-
-echo "Configure Vim"
 ln -s `pwd`/vimrc ~/.vimrc
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -29,10 +27,8 @@ brew install m-cli
 echo "Set wallpaper"
 m wallpaper ./wallpaper.jpg
 
-echo "Install Git"
+echo "Install and configure Git"
 brew install git
-
-echo "Configure Git"
 ln -s `pwd`/gitconfig ~/.gitconfig
 
 echo "Avoid iTunes launch when pressing media buttons"
@@ -52,4 +48,9 @@ m finder showextensions YES
 
 echo "Disable Notification Center"
 m notification showcenter NO
+
+echo "Configure custom Xcode theme"
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/dcordero.dvtcolortheme
+
 
