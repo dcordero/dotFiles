@@ -9,6 +9,7 @@ alias gitowners='for branch in `git branch -r | grep -v HEAD`;do echo -e `git sh
 
 # iOS
 alias cleanDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
+alias xcodesucks='killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; rm -rf Pods/ ; rm Podfile.lock; pod repo update; pod install ; open -a Xcode'
 
 alias useXcodeStable="sudo xcode-select -switch /Applications/Xcode.app"
 alias useXcodeBeta="sudo xcode-select -switch /Applications/Xcode-Beta.app"
@@ -37,3 +38,6 @@ alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/
 # Ruby rvenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 eval $(/usr/libexec/path_helper -s)
+
+# Fastlane
+export PATH="$HOME/.fastlane/bin:$PATH"
