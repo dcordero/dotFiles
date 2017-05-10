@@ -32,12 +32,13 @@ For getting an initial configuration run the following command:
 
 # Things to install from AppStore:
 
+* Commander One PRO
 * Giphy Capture
 * iRamDisk
 * Kindle
 * Omnifocus 2
-* Slack
 * Pixelmator
+* Slack
 * The Unarchiver
 
 # More things to install from internet:
