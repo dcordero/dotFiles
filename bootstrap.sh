@@ -1,5 +1,8 @@
 #!/bin/sh
 
+echo "Configure powerline-shell"
+ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
+
 echo "Configure Bash"
 ln -s `pwd`/bash_profile ~/.bash_profile
 
@@ -28,7 +31,7 @@ echo "Set wallpaper"
 m wallpaper ./wallpaper.jpg
 
 echo "Install and configure Git"
-brew install git
+#brew install git
 ln -s `pwd`/gitconfig ~/.gitconfig
 
 echo "Avoid iTunes launch when pressing media buttons"
