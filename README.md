@@ -52,7 +52,7 @@ For getting an initial configuration run the following command:
 * [iTerm2](https://www.iterm2.com)
 * [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 * [Lock](https://github.com/phelgo/Lock)
-* [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.otf)
+* [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo%20Dotted/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.ttf)
 * [Screenhero](https://screenhero.com)
 * [Spotify](https://www.spotify.com)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
