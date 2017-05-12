@@ -25,8 +25,8 @@ For getting an initial configuration run the following command:
 * Configure Meslo Font in iTerm2
 * Disable Siri
 * Disable adjust keyboard brightness in low light (Settings -> Keyboard)
-* Activate unlimited scrollback in iTerm
-* Silence bell in iTerm
+* Activate unlimited scrollback in iTerm (Preferences -> Profiles -> Terminal -> Unlimited scrollback)
+* Silence bell in iTerm (Preferences -> Profiles -> Terminal -> Silence bell)
 * Map Caps Lock key to ESC (Settings -> Keyboard -> Modifier Keys)
 * Disable "Correct spelling automatically" (Settings -> Keyboard)
 
