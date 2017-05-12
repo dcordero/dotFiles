@@ -9,6 +9,9 @@ ln -s `pwd`/bash_profile ~/.bash_profile
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "Install and configure midnight commander"
+brew install mc
+
 echo "Install and configure Vim"
 brew install vim --with-override-system-vi --without-ruby
 ln -s `pwd`/vimrc ~/.vimrc
