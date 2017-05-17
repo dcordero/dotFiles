@@ -14,7 +14,6 @@ For getting an initial configuration run the following command:
 * Turn on zoom in Accessibility settings
 * Autohide menu bar
 * Configure 5 desktops
-* Configure shortcuts to navigate desktops
 * Dark menu bar and Dock
 * Trackpad tap to click
 * Misson control disable automatic rearrange of Spaces
@@ -26,15 +25,22 @@ For getting an initial configuration run the following command:
 * Disable Siri
 * Disable adjust keyboard brightness in low light (Settings -> Keyboard)
 * Disable automatically adjust screen brightness (Settings -> Displays)
-* iTerm configure tab bar location to Bottom (Preferences -> Appearance -> Tab Bar location) 
-* Configure Solarized Dark theme in iTerm (Preferences -> Profiles -> Colors -> Color Presets)
-* Activate unlimited scrollback in iTerm (Preferences -> Profiles -> Terminal -> Unlimited scrollback)
-* Silence bell in iTerm (Preferences -> Profiles -> Terminal -> Silence bell)
+* iTerm configure tab bar location to Bottom (Settings -> Appearance -> Tab Bar location)
+* Configure Solarized Dark theme in iTerm (Settings -> Profiles -> Colors -> Color Presets)
+* Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
+* Silence bell in iTerm (Settings -> Profiles -> Terminal -> Silence bell)
 * Map Caps Lock key to ESC (Settings -> Keyboard -> Modifier Keys)
 * Disable "Correct spelling automatically" (Settings -> Keyboard)
+* Disable "Guest User"
+* Custom keyboard shortcuts: (Settings -> Keyboard -> Shortcuts)
+    - Configure shortcuts to navigate desktops with Control-Number
+    - Move focus to active or next window: ALT-CMD-Right
+    - Move focus to Dock: CMD-D
+* Disable: Settings -> Mission Control -> When switching to an application, switch to a Space with open windows for the application
 
 # Things to install from AppStore:
 
+* Commander One PRO
 * Giphy Capture
 * Kindle
 * Omnifocus 2
@@ -45,7 +51,10 @@ For getting an initial configuration run the following command:
 
 * [Android Studio](https://developer.android.com/studio)
 * [Apple Configurator](https://developer.apple.com)
+* [Bundler](http://bundler.io/)
 * [Charles Proxy](https://www.charlesproxy.com)
+* [Cocoapods](https://github.com/CocoaPods/CocoaPods)
+* [Fastlane](https://github.com/fastlane/fastlane)
 * [Google Chrome](https://www.google.com/chrome/)
 * [Homebrew](http://brew.sh)
 * [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
@@ -60,11 +69,14 @@ For getting an initial configuration run the following command:
 * [Powerline Shell](https://github.com/banga/powerline-shell)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
 * [Skype](https://www.skype.com/en/)
+* [Swiftlint](https://github.com/realm/SwiftLint)
 * [Synx](https://github.com/venmo/synx)
 * [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
 * [Xcode](https://developer.apple.com)
 * [Synergy](http://symless.com/synergy/)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+* [Visual Studio](https://www.visualstudio.com/downloads/)
 * [VLC](http://www.videolan.org/vlc/index.html)
-* [Vox Player](http://coppertino.com)
+
+
