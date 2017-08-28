@@ -40,3 +40,6 @@ if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
+
+# VSCode
+code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
