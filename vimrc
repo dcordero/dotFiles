@@ -23,7 +23,6 @@ set autoindent
 set showmatch
 
 "" Line number, and cursor position
-set number
 set numberwidth=5
 set ruler
 
@@ -63,10 +62,6 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 
-"" Activate mouse
-set ttyfast
-set mouse=a
-
 "" Pathogen
 execute pathogen#infect()
 
@@ -82,18 +77,24 @@ vnoremap <tab> %
 
 "" Relative numbers and toggle
 function! NumberToggle()
-  if(&relativenumber == 1)
+  if(&relativenumber == 1 && &number == 1)
+    set number
+    set norelativenumber
+  elseif(&number == 1)
+    set nonumber
     set norelativenumber
   else
+    set number
     set relativenumber
   endif
 endfunc
 
+set number
 set relativenumber
-nnoremap <S-n> :call NumberToggle()<cr>
+nnoremap <C-n> :call NumberToggle()<cr>
 
 "" Open/Close Nerdtree key map
-nnoremap <C-n> :NERDTreeToggle<cr>
+nnoremap <C-m> :NERDTreeToggle<cr>
 
 " Disable Arrow keys in Escape mode
 map <up> <nop>

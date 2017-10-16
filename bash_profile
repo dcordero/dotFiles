@@ -35,11 +35,11 @@ PROMPT_COMMAND="_powerline_ps1; $PROMPT_COMMAND"
 # Lockscreen
 alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/Resources/CGSession -suspend'
 
-# Ruby rbenv
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
-
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
+
+# Ruby rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 # VSCode
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
