@@ -16,7 +16,7 @@ For getting an initial configuration run the following command:
 * Configure 5 desktops
 * Dark menu bar and Dock
 * Trackpad tap to click
-* Misson control disable automatic rearrange of Spaces
+* Mission control disable automatic rearrange of Spaces
 * Show keychain status on the menu bar
 * Show battery percent on the menu bar
 * Show bluetooth on the menu bar
@@ -40,7 +40,6 @@ For getting an initial configuration run the following command:
 
 # Things to install from AppStore:
 
-* Commander One PRO
 * Giphy Capture
 * Kindle
 * Omnifocus 2
@@ -74,7 +73,6 @@ For getting an initial configuration run the following command:
 * [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
 * [TheNerdTree Git Plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 * [Xcode](https://developer.apple.com)
-* [Synergy](http://symless.com/synergy/)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Visual Studio](https://www.visualstudio.com/downloads/)

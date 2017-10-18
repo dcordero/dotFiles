@@ -36,7 +36,7 @@ alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 # Ruby rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
 
 # VSCode
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
