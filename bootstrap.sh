@@ -23,6 +23,7 @@ cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 git clone https://github.com/ivalkeen/nerdtree-execute
 git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
+git clone git://github.com/dhruvasagar/vim-vinegar.git
 git clone https://github.com/keith/swift.vim.git
 git clone https://github.com/bronson/vim-trailing-whitespace.git
 git clone https://github.com/elzr/vim-json.git
