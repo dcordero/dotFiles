@@ -12,8 +12,15 @@ echo "Install Homebrew"
 echo "Install and configure midnight commander"
 brew install mc
 
+echo "Install and configure Git"
+brew install git
+ln -s `pwd`/gitconfig ~/.gitconfig
+
 echo "Install and configure Vim"
-brew install vim --with-override-system-vi --without-ruby
+export C_INCLUDE_PATH=/System/Library/Frameworks/Python.framework/Headers:$C_INCLUDE_PATH
+export CPLUS_INCLUDE_PATH=/System/Library/Frameworks/Python.framework/Headers:$CPLUS_INCLUDE_PATH
+brew install python
+brew install vim --with-override-system-vi --with-ruby
 ln -s `pwd`/vimrc ~/.vimrc
 
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
@@ -27,6 +34,8 @@ git clone git://github.com/dhruvasagar/vim-vinegar.git
 git clone https://github.com/keith/swift.vim.git
 git clone https://github.com/bronson/vim-trailing-whitespace.git
 git clone https://github.com/elzr/vim-json.git
+git clone https://github.com/wincent/command-t
+cd command-t && rake make && cd ..
 cd -
 
 echo "Install m-cli"
@@ -34,10 +43,6 @@ brew install m-cli
 
 echo "Set wallpaper"
 m wallpaper ./wallpaper.jpg
-
-echo "Install and configure Git"
-#brew install git
-ln -s `pwd`/gitconfig ~/.gitconfig
 
 echo "Avoid iTunes launch when pressing media buttons"
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
@@ -53,9 +58,6 @@ m dock position BOTTOM
 echo "Configure Finder"
 m finder showhiddenfiles YES
 m finder showextensions YES
-
-echo "Disable Notification Center"
-m notification showcenter NO
 
 echo "Configure custom Xcode theme"
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/

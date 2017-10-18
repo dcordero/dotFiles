@@ -113,5 +113,10 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
+""" Command-T configuration
+nnoremap <C-t> :CommandT<cr>
+let g:CommandTCursorColor    = 'Cursor'
+let g:CommandTHighlightColor = 'Wildmenu'
+
 nnoremap <C-b> :!sh run.sh<cr>
 
