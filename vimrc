@@ -107,3 +107,11 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
+
+"" NERDTree configuration
+let NERDTreeAutoDeleteBuffer = 1
+let NERDTreeMinimalUI = 1
+let NERDTreeDirArrows = 1
+
+nnoremap <C-b> :!sh run.sh<cr>
+
