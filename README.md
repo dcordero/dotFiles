@@ -72,6 +72,7 @@ For getting an initial configuration run the following command:
 * [Swiftlint](https://github.com/realm/SwiftLint)
 * [Synx](https://github.com/venmo/synx)
 * [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
+* [TheNerdTree Git Plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
 * [Xcode](https://developer.apple.com)
 * [Synergy](http://symless.com/synergy/)
 * [Vagrant](https://www.vagrantup.com/downloads.html)

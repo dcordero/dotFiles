@@ -22,9 +22,6 @@ alias ls='ls -G'
 alias ll='ls -hl'
 alias grep='grep --color=auto'
 
-# Vim
-alias vimnt='vim -c "NERDTree"'
-
 # Powerline Shell PS1
 function _powerline_ps1() {
     PS1="$(~/.powerline-shell.py $? 2> /dev/null)"
