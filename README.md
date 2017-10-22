@@ -45,6 +45,7 @@ For getting an initial configuration run the following command:
 * Omnifocus 2
 * Pixelmator
 * The Unarchiver
+* Typeeto
 
 # More things to install from internet:
 
