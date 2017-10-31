@@ -118,5 +118,3 @@ nnoremap <C-t> :CommandT<cr>
 let g:CommandTCursorColor    = 'Cursor'
 let g:CommandTHighlightColor = 'Wildmenu'
 
-nnoremap <C-b> :!sh run.sh<cr>
-
