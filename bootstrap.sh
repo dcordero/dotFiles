@@ -63,4 +63,9 @@ echo "Configure custom Xcode theme"
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/dcordero.dvtcolortheme
 
+echo "Hide useless predefined folders under Home"
+chflags hidden ~/Music
+chflags hidden ~/Movies
+chflags hidden ~/Pictures
+chflags hidden ~/Public
 
