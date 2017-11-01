@@ -62,7 +62,6 @@ For getting an initial configuration run the following command:
 * [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 * [Lock](https://github.com/phelgo/Lock)
 * [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo%20Dotted/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.ttf)
-* [Screenhero](https://screenhero.com)
 * [Spotify](https://www.spotify.com)
 * [Pathogen](https://github.com/tpope/vim-pathogen)
 * [Pixelmator](http://www.pixelmator.com)
@@ -79,5 +78,4 @@ For getting an initial configuration run the following command:
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Visual Studio](https://www.visualstudio.com/downloads/)
 * [VLC](http://www.videolan.org/vlc/index.html)
-
 
