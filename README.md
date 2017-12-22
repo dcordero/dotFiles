@@ -45,7 +45,7 @@ For getting an initial configuration run the following command:
 * Omnifocus 2
 * Pixelmator
 * The Unarchiver
-* Typeeto
+* [Magnet](https://itunes.apple.com/ch/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4)
 
 # More things to install from internet:
 
