@@ -6,6 +6,10 @@ ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
 echo "Configure Bash"
 ln -s `pwd`/bash_profile ~/.bash_profile
 
+
+echo "Link iCloud from home folder"
+ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs iCloud
+
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
