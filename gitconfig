@@ -22,3 +22,7 @@
     df = diff
     lg = log -p
 
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
