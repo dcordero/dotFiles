@@ -36,7 +36,8 @@ alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/
 export PATH="$HOME/.fastlane/bin:$PATH"
 
 # Ruby
-eval "$(rbenv init -)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.rbenv/shims:$PATH"
 alias be="bundle exec"
 
 # VSCode
