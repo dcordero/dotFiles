@@ -16,6 +16,9 @@ echo "Install Homebrew"
 echo "Install and configure midnight commander"
 brew install mc
 
+echo "Install image magic"
+brew install imagemagick
+
 echo "Install and configure Git"
 brew install git
 ln -s `pwd`/gitconfig ~/.gitconfig
