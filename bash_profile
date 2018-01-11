@@ -34,6 +34,8 @@ alias lockscreen='/System/Library/CoreServices/"Menu Extras"/User.menu/Contents/
 
 # Fastlane
 export PATH="$HOME/.fastlane/bin:$PATH"
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 # Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
