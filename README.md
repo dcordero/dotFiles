@@ -72,7 +72,7 @@ For getting an initial configuration run the following command:
 * [Synx](https://github.com/venmo/synx)
 * [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
 * [TheNerdTree Git Plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
-* [Vim-Vinegar](git clone git://github.com/dhruvasagar/vim-vinegar.git)
+* [Vim-Vinegar](https://github.com/dhruvasagar/vim-vinegar.git)
 * [Xcode](https://developer.apple.com)
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 * [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
