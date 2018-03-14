@@ -76,3 +76,6 @@ chflags hidden ~/Movies
 chflags hidden ~/Pictures
 chflags hidden ~/Public
 
+echo "Configure Visual Studio Code"
+ln -s `pwd`/vscode.json Library/Application\ Support/Code/User/settings.json
+
