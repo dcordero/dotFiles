@@ -13,6 +13,10 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
+echo "Install CTags"
+brew install ctags
+alias ctags="`brew --prefix`/bin/ctags"
+
 echo "Install and configure midnight commander"
 brew install mc
 
@@ -40,8 +44,6 @@ git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
 git clone git://github.com/dhruvasagar/vim-vinegar.git
 git clone https://github.com/keith/swift.vim.git
 git clone https://github.com/bronson/vim-trailing-whitespace.git
-git clone https://github.com/elzr/vim-json.git
-git clone https://github.com/wincent/command-t
 cd command-t && rake make && cd ..
 cd -
 

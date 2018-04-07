@@ -44,3 +44,5 @@ alias be="bundle exec"
 
 # VSCode
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
+
+alias ctags='/usr/local/bin/ctags'

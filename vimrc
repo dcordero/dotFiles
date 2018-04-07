@@ -2,8 +2,11 @@
 colorscheme desert
 set guifont=Monaco:h14
 
-" http://robots.thoughtbot.com/post/18739402579/global-gitignore#comment-458413287
+"" Avoid creating temporal swp files
 set noswapfile
+
+"" Add current folder recursively to the find path
+set path+=**
 
 " Reload files changed outside vim
 set autoread
@@ -30,8 +33,9 @@ set ruler
 set splitbelow
 set splitright
 
-"" Bash behaviour
-set wildmode=longest,list:longest
+"" Tab behaviour
+set wildmenu
+set wildmode=longest:list,full
 
 "" Custom Keymap for tabs
 map ,t : tabnew<cr>
@@ -113,8 +117,11 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-""" Command-T configuration
-nnoremap <C-t> :CommandT<cr>
-let g:CommandTCursorColor    = 'Cursor'
-let g:CommandTHighlightColor = 'Wildmenu'
+"" Netrw configuration
+let g:netrw_browse_split=1
+let g:netrw_altv=1
+let g:netrw_liststyle=3
+
+"" Tags
+command! MakeTags !ctags -R .
 
