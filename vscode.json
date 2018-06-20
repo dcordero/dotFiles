@@ -1,4 +1,7 @@
 {
     "workbench.startupEditor": "newUntitledFile",
-    "terminal.integrated.fontFamily": "Menlo for Powerline"
+    "terminal.integrated.fontFamily": "Menlo for Powerline",
+    "workbench.colorTheme": "Default Light+",
+    "workbench.editor.showTabs": false,
+    "explorer.openEditors.visible": 0
 }

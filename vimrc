@@ -1,7 +1,3 @@
-"" Custom colorscheme
-colorscheme desert
-set guifont=Monaco:h14
-
 "" Avoid creating temporal swp files
 set noswapfile
 
@@ -125,3 +121,6 @@ let g:netrw_liststyle=3
 "" Tags
 command! MakeTags !ctags -R .
 
+"" Custom colorscheme
+colorscheme pablo
+set guifont=Monaco:h14
