@@ -40,6 +40,7 @@ For getting an initial configuration run the following command:
 
 # Things to install from AppStore:
 
+* Alfred
 * Giphy Capture
 * Kindle
 * Omnifocus 2
