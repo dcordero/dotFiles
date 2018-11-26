@@ -47,7 +47,6 @@ configure() {
     git clone git://github.com/dhruvasagar/vim-vinegar.git
     git clone https://github.com/keith/swift.vim.git
     git clone https://github.com/bronson/vim-trailing-whitespace.git
-    cd command-t && rake make && cd ..
     cd -
 
     echo "${YELLOW}Setup walpaper${RESTORE}"
