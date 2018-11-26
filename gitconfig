@@ -21,6 +21,7 @@
     co = checkout
     df = diff
     lg = log -p
+    puigdemont = reset HEAD~
 
 [diff]
     tool = vimdiff
