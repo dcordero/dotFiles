@@ -5,6 +5,7 @@
 
 [core]
     editor = vim
+    excludesfile = /Users/dcordero/.gitignore_global
 
 [color]
     ui = true
