@@ -307,7 +307,7 @@ def add_username_segment(powerline):
     powerline.append(user_prompt, Color.USERNAME_FG, bgcolor)
 
 
-add_username_segment(powerline)
+#add_username_segment(powerline)
 import os
 
 def add_ssh_segment(powerline):
@@ -535,9 +535,9 @@ def add_jobs_segment(powerline):
 add_jobs_segment(powerline)
 def add_root_segment(powerline):
     root_indicators = {
-        'bash': ' \\$ ',
-        'zsh': ' %# ',
-        'bare': ' $ ',
+        'bash': ' \\$',
+        'zsh': ' %#',
+        'bare': ' $',
     }
     bg = Color.CMD_PASSED_BG
     fg = Color.CMD_PASSED_FG
