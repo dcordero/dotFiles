@@ -11,6 +11,9 @@ alias gitowners='for branch in `git branch -r | grep -v HEAD`;do echo -e `git sh
 alias cleanDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
 alias xcodesucks='killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; rm -rf Pods/ ; pod repo update; pod install ; open -a Xcode'
 alias touchBarSucks='killall TouchBarServer; killall ControlStrip; killall Simulator'
+alias removeUnavailableSimulators='xcrun simctl delete unavailable'
+alias disableKeyboard='sudo kextunload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext'
+alias enableKeyboard='sudo kextload /System/Library/Extensions/AppleUSBTopCase.kext/Contents/PlugIns/AppleUSBTCKeyboard.kext'
 
 alias useXcodeStable="sudo xcode-select -switch /Applications/Xcode.app"
 alias useXcodeBeta="sudo xcode-select -switch /Applications/Xcode-Beta.app"
@@ -22,6 +25,8 @@ alias lolcat='/Applications/Android/sdk/platform-tools/adb logcat | /Application
 alias ls='ls -G'
 alias ll='ls -hl'
 alias grep='grep --color=auto'
+
+alias localserver='ruby -run -e httpd . -p 8000'
 
 # Powerline Shell PS1
 function _powerline_ps1() {
@@ -47,3 +52,5 @@ alias be="bundle exec"
 code () { VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ;}
 
 alias ctags='/usr/local/bin/ctags'
+
+export PATH="$HOME/.cargo/bin:$PATH"

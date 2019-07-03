@@ -34,6 +34,7 @@ configure() {
     ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 
     echo "${YELLOW}Configure Git${RESTORE}"
+    ln -s `pwd`/gitignore_global ~/.gitignore_global
     ln -s `pwd`/gitconfig ~/.gitconfig
 
     echo "${YELLOW}Configure Vim${RESTORE}"
