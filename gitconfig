@@ -1,11 +1,11 @@
 [user]
-    name = David Cordero
-    email = david@corderoramirez.com
+	name = David Cordero
+	email = david@corderoramirez.com
     user = dcordero
 
 [core]
     editor = vim
-    excludesfile = /Users/dcordero/.gitignore_global
+	excludesfile = /Users/dcordero/.gitignore_global
 
 [color]
     ui = true
@@ -29,3 +29,11 @@
 	
 [difftool]
     prompt = false
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/dcordero/.stCommitMsg
