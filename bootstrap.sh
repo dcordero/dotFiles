@@ -30,6 +30,9 @@ configure() {
     echo "${YELLOW}Configure Bash${RESTORE}"
     ln -s `pwd`/bash_profile ~/.bash_profile
 
+    echo "${YELLOW}Configure TIG${RESTORE}"
+    ln -s `pwd`/tigrc ~/.tigrc
+
     echo "${YELLOW}Link iCloud from home folder${RESTORE}"
     ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 
