@@ -36,6 +36,10 @@ For getting an initial configuration run the following command:
     - Configure shortcuts to navigate desktops with Control-Number
     - Move focus to active or next window: ALT-CMD-Right
     - Move focus to Dock: CMD-D
+* Custom App Shortcut: (Settings -> Keyboard -> Shortcuts -> App Shortcuts)
+    - Avoid Safari closing with CMD-W when having pin tabs:
+    - Application: "Safari", Menu Title: "Close Tab", Keyboard Shortcut: CMD-@
+        
 * Disable: Settings -> Mission Control -> When switching to an application, switch to a Space with open windows for the application
 
 # Things to install from AppStore:
