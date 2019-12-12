@@ -12,15 +12,11 @@ For getting an initial configuration run the following command:
 # More things to configure
 
 * Turn on zoom in Accessibility settings
-* Autohide menu bar
 * Configure 5 desktops
-* Dark menu bar and Dock
 * Trackpad tap to click
 * Mission control disable automatic rearrange of Spaces
-* Show keychain status on the menu bar
 * Show battery percent on the menu bar
 * Show bluetooth on the menu bar
-* Configure Inconsolate Font in Xcode
 * Configure Meslo Font in iTerm2
 * Disable Siri
 * Disable adjust keyboard brightness in low light (Settings -> Keyboard)
@@ -56,9 +52,8 @@ For getting an initial configuration run the following command:
 # More things to install from internet:
 
 * [Android Studio](https://developer.android.com/studio)
-* [Apple Configurator](https://developer.apple.com)
 * [Bundler](http://bundler.io/)
-* [Charles Proxy](https://www.charlesproxy.com)
+* [Bagel](https://github.com/yagiz/Bagel)
 * [Cocoapods](https://github.com/CocoaPods/CocoaPods)
 * [Fastlane](https://github.com/fastlane/fastlane)
 * [Google Chrome](https://www.google.com/chrome/)
@@ -73,7 +68,6 @@ For getting an initial configuration run the following command:
 * [Pixelmator](http://www.pixelmator.com)
 * [Powerline Shell](https://github.com/banga/powerline-shell)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
-* [Skype](https://www.skype.com/en/)
 * [Swiftlint](https://github.com/realm/SwiftLint)
 * [Synx](https://github.com/venmo/synx)
 * [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
