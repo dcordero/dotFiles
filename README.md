@@ -2,11 +2,54 @@
 
 This repo contains my custom dot files and personal settings.
 
-# Settings
+# Initial configuration
 
-For getting an initial configuration run the following command:
+**Bash**
 ```
-./bootstrap.sh
+ln -s `pwd`/bash_profile ~/.bash_profile
+```
+
+**Git**
+```
+ln -s `pwd`/gitignore_global ~/.gitignore_global
+ln -s `pwd`/gitconfig ~/.gitconfig
+```
+
+**Powerline Shell**
+```
+ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
+```
+
+**Vim**
+
+```
+ln -s `pwd`/vimrc ~/.vimrc
+mkdir -p ~/.vim/autoload ~/.vim/bundle && \
+curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git
+git clone https://github.com/ivalkeen/nerdtree-execute
+git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
+git clone git://github.com/dhruvasagar/vim-vinegar.git
+git clone https://github.com/keith/swift.vim.git
+git clone https://github.com/bronson/vim-trailing-whitespace.git
+cd -
+```
+
+**VSCode**
+```
+ln -s `pwd`/vscode.json Library/Application\ Support/Code/User/settings.json
+```
+
+**iCloud Link***
+```
+ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
+```
+
+**Xcode custom theme**
+```
+mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
+ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/dcordero.dvtcolortheme
 ```
 
 # More things to configure
@@ -38,44 +81,45 @@ For getting an initial configuration run the following command:
         
 * Disable: Settings -> Mission Control -> When switching to an application, switch to a Space with open windows for the application
 
+# Homebrew
+
+**Install Homebrew**
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+**Install Apps**
+```
+brew install mc
+brew install imagemagick
+brew install hub
+brew install vim --with-override-system-vi --with-ruby
+brew install git
+```
+
 # Things to install from AppStore:
 
-* Alfred
-* Giphy Capture
-* Kindle
-* Omnifocus 2
-* Pixelmator
-* The Unarchiver
+* [Rbenv](https://github.com/rbenv/rbenv)
+* [Giphy Capture](https://apps.apple.com/ch/app/giphy-capture-the-gif-maker/id668208984?l=en&mt=12)
+* [Kindle](https://apps.apple.com/ch/app/kindle/id405399194?l=en&mt=12)
+* [Omnifocus](https://apps.apple.com/ch/app/omnifocus-3/id1346203938?l=en&mt=12)
+* [Pixelmator](https://apps.apple.com/ch/app/pixelmator/id407963104?l=en&mt=12)
+* [The Unarchiver](https://apps.apple.com/ch/app/the-unarchiver/id425424353?l=en&mt=12)
 * [Magnet](https://itunes.apple.com/ch/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4)
-* Typeeto
+* [Typeeto](https://apps.apple.com/ch/app/typeeto-remote-bt-keyboard/id970502923?l=en&mt=12)
 
 # More things to install from internet:
 
-* [Android Studio](https://developer.android.com/studio)
-* [Bundler](http://bundler.io/)
-* [Bagel](https://github.com/yagiz/Bagel)
-* [Cocoapods](https://github.com/CocoaPods/CocoaPods)
-* [Fastlane](https://github.com/fastlane/fastlane)
-* [Google Chrome](https://www.google.com/chrome/)
-* [Homebrew](http://brew.sh)
-* [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
 * [iTerm2](https://www.iterm2.com)
+* [Android Studio](https://developer.android.com/studio)
+* [Bagel](https://github.com/yagiz/Bagel)
+* [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
 * [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 * [Lock](https://github.com/phelgo/Lock)
 * [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo%20Dotted/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.ttf)
 * [Spotify](https://www.spotify.com)
-* [Pathogen](https://github.com/tpope/vim-pathogen)
-* [Pixelmator](http://www.pixelmator.com)
-* [Powerline Shell](https://github.com/banga/powerline-shell)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
-* [Swiftlint](https://github.com/realm/SwiftLint)
-* [Synx](https://github.com/venmo/synx)
-* [TheNerdTree](http://vimawesome.com/plugin/nerdtree-red)
-* [TheNerdTree Git Plugin](https://github.com/Xuyuanp/nerdtree-git-plugin)
-* [Vim-Vinegar](https://github.com/dhruvasagar/vim-vinegar.git)
 * [Xcode](https://developer.apple.com)
-* [Vagrant](https://www.vagrantup.com/downloads.html)
-* [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
 * [Visual Studio](https://www.visualstudio.com/downloads/)
 * [VLC](http://www.videolan.org/vlc/index.html)
 
