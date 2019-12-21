@@ -110,6 +110,7 @@ brew install git
 
 # More things to install from internet:
 
+* [Node](https://nodejs.org)
 * [iTerm2](https://www.iterm2.com)
 * [Android Studio](https://developer.android.com/studio)
 * [Bagel](https://github.com/yagiz/Bagel)
