@@ -95,6 +95,7 @@ brew install imagemagick
 brew install hub
 brew install vim --with-override-system-vi --with-ruby
 brew install git
+brew install imagemagick
 ```
 
 # Things to install from AppStore:
