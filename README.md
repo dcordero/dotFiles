@@ -20,6 +20,11 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
 ```
 
+**Tux**
+```
+ln -s `pwd`/tmux.conf ~/.tmux.conf
+```
+
 **Vim**
 
 ```
