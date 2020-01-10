@@ -62,9 +62,6 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 
-"" Pathogen
-execute pathogen#infect()
-
 " Quicker window movement
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k

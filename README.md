@@ -9,6 +9,11 @@ This repo contains my custom dot files and personal settings.
 ln -s `pwd`/bash_profile ~/.bash_profile
 ```
 
+**Zsh**
+```
+ln -s `pwd`/zshrc ~/.zshrc
+```
+
 **Git**
 ```
 ln -s `pwd`/gitignore_global ~/.gitignore_global
@@ -20,7 +25,7 @@ ln -s `pwd`/gitconfig ~/.gitconfig
 ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
 ```
 
-**Tux**
+**Tmux**
 ```
 ln -s `pwd`/tmux.conf ~/.tmux.conf
 ```
