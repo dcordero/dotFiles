@@ -31,7 +31,7 @@ set splitright
 
 "" Tab behaviour
 set wildmenu
-set wildmode=longest:list,full
+set wildmode=full
 
 "" Custom Keymap for tabs
 map ,t : tabnew<cr>
@@ -90,9 +90,6 @@ set number
 set relativenumber
 nnoremap <C-n> :call NumberToggle()<cr>
 
-"" Open/Close Nerdtree key map
-nnoremap <C-m> :NERDTreeToggle<cr>
-
 " Disable Arrow keys in Escape mode
 map <up> <nop>
 map <down> <nop>
@@ -104,16 +101,6 @@ imap <up> <nop>
 imap <down> <nop>
 imap <left> <nop>
 imap <right> <nop>
-
-"" NERDTree configuration
-let NERDTreeAutoDeleteBuffer = 1
-let NERDTreeMinimalUI = 1
-let NERDTreeDirArrows = 1
-
-"" Netrw configuration
-let g:netrw_browse_split=1
-let g:netrw_altv=1
-let g:netrw_liststyle=3
 
 "" Tags
 command! MakeTags !ctags -R .

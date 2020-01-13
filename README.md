@@ -20,6 +20,11 @@ ln -s `pwd`/gitignore_global ~/.gitignore_global
 ln -s `pwd`/gitconfig ~/.gitconfig
 ```
 
+**Tig**
+```
+ln -s `pwd`/tigrc ~/.tigrc
+```
+
 **Powerline Shell**
 ```
 ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
@@ -31,19 +36,8 @@ ln -s `pwd`/tmux.conf ~/.tmux.conf
 ```
 
 **Vim**
-
 ```
 ln -s `pwd`/vimrc ~/.vimrc
-mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-cd ~/.vim/bundle
-git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/ivalkeen/nerdtree-execute
-git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git
-git clone git://github.com/dhruvasagar/vim-vinegar.git
-git clone https://github.com/keith/swift.vim.git
-git clone https://github.com/bronson/vim-trailing-whitespace.git
-cd -
 ```
 
 **VSCode**

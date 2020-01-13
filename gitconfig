@@ -37,3 +37,6 @@
 	trustExitCode = true
 [commit]
 	template = /Users/dcordero/.stCommitMsg
+
+[core]
+    pager = less -FRX
