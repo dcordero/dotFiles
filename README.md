@@ -40,6 +40,12 @@ ln -s `pwd`/tmux.conf ~/.tmux.conf
 ln -s `pwd`/vimrc ~/.vimrc
 ```
 
+**Neovim**
+```
+mkdir ~/.config/nvim/
+ln -s `pwd`/nvim.conf ~/.config/nvim/init.vim
+```
+
 **VSCode**
 ```
 ln -s `pwd`/vscode.json Library/Application\ Support/Code/User/settings.json
@@ -98,6 +104,7 @@ brew install mc
 brew install imagemagick
 brew install hub
 brew install vim --with-override-system-vi --with-ruby
+brew install neovim
 brew install git
 brew install imagemagick
 ```
