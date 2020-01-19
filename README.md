@@ -108,7 +108,7 @@ brew install neovim
 brew install git
 ```
 
-# Things to install from AppStore:
+# Things to install from the AppStore:
 
 * [Rbenv](https://github.com/rbenv/rbenv)
 * [Giphy Capture](https://apps.apple.com/ch/app/giphy-capture-the-gif-maker/id668208984?l=en&mt=12)
@@ -119,7 +119,7 @@ brew install git
 * [Magnet](https://itunes.apple.com/ch/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4)
 * [Typeeto](https://apps.apple.com/ch/app/typeeto-remote-bt-keyboard/id970502923?l=en&mt=12)
 
-# More things to install from internet:
+# More things to install from the Internet:
 
 * [Node](https://nodejs.org)
 * [iTerm2](https://www.iterm2.com)
