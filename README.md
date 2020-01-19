@@ -51,7 +51,7 @@ ln -s `pwd`/nvim.conf ~/.config/nvim/init.vim
 ln -s `pwd`/vscode.json Library/Application\ Support/Code/User/settings.json
 ```
 
-**iCloud Link***
+**iCloud Link**
 ```
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 ```
