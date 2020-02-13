@@ -103,7 +103,7 @@ ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndCol
 brew install mc
 brew install imagemagick
 brew install hub
-brew install github/gh/g
+brew install github/gh/gh
 brew install vim --with-override-system-vi --with-ruby
 brew install neovim
 brew install git
