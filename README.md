@@ -103,6 +103,7 @@ ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndCol
 brew install mc
 brew install imagemagick
 brew install hub
+brew install github/gh/g
 brew install vim --with-override-system-vi --with-ruby
 brew install neovim
 brew install git
@@ -132,6 +133,7 @@ brew install git
 * [Spotify](https://www.spotify.com)
 * [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
 * [Xcode](https://developer.apple.com)
+* [OpenGithub plugin](https://github.com/Watson1978/OpenGithub)
 * [Visual Studio](https://www.visualstudio.com/downloads/)
 * [VLC](http://www.videolan.org/vlc/index.html)
 
