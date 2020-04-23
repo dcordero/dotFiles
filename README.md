@@ -90,6 +90,9 @@ ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndCol
     - Application: "Safari", Menu Title: "Close Tab", Keyboard Shortcut: CMD-W
         
 * Disable: Settings -> Mission Control -> When switching to an application, switch to a Space with open windows for the application
+* Sourcetree:
+    - Preferences -> Window Restoration -> Don't restore Windows on starup
+    - Disable: Preferences -> Window Restoration -> Offer to create bookmarks for newly opened repositories
 
 # Homebrew
 
