@@ -110,10 +110,12 @@ brew install github/gh/gh
 brew install vim --with-override-system-vi --with-ruby
 brew install neovim
 brew install git
+brew install w3m
 ```
 
 # Things to install from the AppStore:
 
+* [Pyenv](https://github.com/pyenv/pyenv)
 * [Rbenv](https://github.com/rbenv/rbenv)
 * [Giphy Capture](https://apps.apple.com/ch/app/giphy-capture-the-gif-maker/id668208984?l=en&mt=12)
 * [Kindle](https://apps.apple.com/ch/app/kindle/id405399194?l=en&mt=12)

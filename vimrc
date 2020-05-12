@@ -106,5 +106,5 @@ imap <right> <nop>
 command! MakeTags !ctags -R .
 
 "" Custom colorscheme
-colorscheme pablo
+colorscheme koehler
 set guifont=Monaco:h14

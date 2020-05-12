@@ -29,6 +29,11 @@ alias lolcat='/Applications/Android/sdk/platform-tools/adb logcat | /Application
 # General
 alias localserver='ruby -run -e httpd . -p 8000'
 
+# Python
+if command -v pyenv 1>/dev/null 2>&1; then
+  eval "$(pyenv init -)"
+fi
+ 
 # Ruby
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.rbenv/shims:$PATH"
