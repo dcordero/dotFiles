@@ -40,12 +40,6 @@ ln -s `pwd`/tmux.conf ~/.tmux.conf
 ln -s `pwd`/vimrc ~/.vimrc
 ```
 
-**Neovim**
-```
-mkdir ~/.config/nvim/
-ln -s `pwd`/nvim.conf ~/.config/nvim/init.vim
-```
-
 **VSCode**
 ```
 ln -s `pwd`/vscode.json Library/Application\ Support/Code/User/settings.json
