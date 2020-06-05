@@ -8,7 +8,7 @@ export TERM=xterm-color
 alias gitowners='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%an ---> %ai %ar" $branch | head -n 1` \\t$branch; done | sort -r'
 
 # Thanks Apple
-alias cleanDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
+alias clearDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
 alias xcodesucks='killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; rm -rf Pods/ ; pod repo update; pod install ; open -a Xcode'
 alias touchBarSucks='killall TouchBarServer; killall ControlStrip; killall Simulator'
 alias removeUnavailableSimulators='xcrun simctl delete unavailable'
