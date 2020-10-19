@@ -118,6 +118,7 @@ brew install w3m
 * [The Unarchiver](https://apps.apple.com/ch/app/the-unarchiver/id425424353?l=en&mt=12)
 * [Magnet](https://itunes.apple.com/ch/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4)
 * [Typeeto](https://apps.apple.com/ch/app/typeeto-remote-bt-keyboard/id970502923?l=en&mt=12)
+* [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12)
 
 # More things to install from the Internet:
 
