@@ -42,12 +42,17 @@ ln -s `pwd`/vimrc ~/.vimrc
 
 **VSCode**
 ```
-ln -s `pwd`/vscode.json Library/Application\ Support/Code/User/settings.json
+ln -s `pwd`/vscode.json ~/Library/Application\ Support/Code/User/settings.json
 ```
 
 **iCloud Link**
 ```
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
+```
+
+**Vimari**
+```
+ln -s `pwd`/vimari.conf ~/Library/Containers/net.televator.Vimari.SafariExtension/Data/Library/Application Support/userSettings.json
 ```
 
 **Xcode custom theme**
