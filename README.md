@@ -35,6 +35,11 @@ ln -s `pwd`/powerline-shell.py ~/.powerline-shell.py
 ln -s `pwd`/tmux.conf ~/.tmux.conf
 ```
 
+**Conda**
+```
+ln -s `pwd`/condarc ~/.condarc
+```
+
 **Vim**
 ```
 ln -s `pwd`/vimrc ~/.vimrc
