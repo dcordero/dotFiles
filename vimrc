@@ -8,7 +8,7 @@ set path+=**
 set autoread
 
 "" Deactivate beep sound
-set visualbell
+set novisualbell
 set noerrorbells
 
 "" Indentation and colours
