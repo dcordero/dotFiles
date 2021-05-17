@@ -98,6 +98,7 @@ brew install tmux
 brew install mc
 brew install w3m
 brew install tig
+brew install jq
 ```
 
 # Things to install from the AppStore:
