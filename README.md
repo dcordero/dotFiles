@@ -106,6 +106,7 @@ brew install mc
 brew install w3m
 brew install tig
 brew install jq
+brew install wget
 ```
 
 # Things to install from the AppStore:
