@@ -80,14 +80,10 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Settings -> Keyboard -> Customise Control Strip -> Remove Siri Button
 * Remove all widgets (Notifications -> Edit Widgets -> Remove all) 
 * Enable Peace Mode (Control Center -> Do Not Disturb -> Always On)
-
-* iTerm
-    - Configure Meslo Font in iTerm2
-    - iTerm configure tab bar location to Bottom (Settings -> Appearance -> Tab Bar location)
-    - Configure Solarized Dark theme in iTerm (Settings -> Profiles -> Colors -> Color Presets)
-    - Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
-    - Silence bell in iTerm (Settings -> Profiles -> Terminal -> Silence bell)
-
+* Terminal
+    - Theme (Terminal -> Preferences -> General -> New window with Profile: Pro
+    - Disable Bell (Terminal -> Preferences -> Profile -> Pro -> Advanced -> Disable Audible Bell)
+    - Font (Terminal -> Preferences -> Profile -> Pro -> Text -> Menlo Regular for Powerline 12
 
 # Homebrew
 
@@ -115,7 +111,6 @@ brew install tig
 # More things to install from the Internet:
 
 * [VLC](http://www.videolan.org/vlc/index.html)
-* [iTerm2](https://www.iterm2.com)
 * [Rbenv](https://github.com/rbenv/rbenv)
 * [Node](https://nodejs.org)
 * [Android Studio](https://developer.android.com/studio)
