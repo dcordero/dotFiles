@@ -45,58 +45,49 @@ ln -s `pwd`/condarc ~/.condarc
 ln -s `pwd`/vimrc ~/.vimrc
 ```
 
-**VSCode**
-```
-ln -s `pwd`/vscode.json ~/Library/Application\ Support/Code/User/settings.json
-```
-
 **iCloud Link**
 ```
 ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 ```
 
-**Vimari**
-```
-ln -s `pwd`/vimari.conf ~/Library/Containers/net.televator.Vimari.SafariExtension/Data/Library/Application Support/userSettings.json
-```
-
-**Xcode custom theme**
-```
-mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
-ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/dcordero.dvtcolortheme
-```
-
 # More things to configure
 
-* Turn on zoom in Accessibility settings
 * Configure 5 desktops
-* Trackpad tap to click
-* Mission control disable automatic rearrange of Spaces
-* Show battery percent on the menu bar
-* Show bluetooth on the menu bar
-* Configure Meslo Font in iTerm2
 * Disable Siri
-* Disable adjust keyboard brightness in low light (Settings -> Keyboard)
-* Disable automatically adjust screen brightness (Settings -> Displays)
-* iTerm configure tab bar location to Bottom (Settings -> Appearance -> Tab Bar location)
-* Configure Solarized Dark theme in iTerm (Settings -> Profiles -> Colors -> Color Presets)
-* Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
-* Silence bell in iTerm (Settings -> Profiles -> Terminal -> Silence bell)
+* Disable "Guest User" (Settings -> Users & Groups)
+* Automatically hide and show the Dock (Settings -> Dock & Menu Bar -> Enable Automatically hide and show the Dock)
+* Hide recent Apps in Dock (Settings -> Dock & Menu Bar -> Disable Show recent applications in Dock)
+* Turn on zoom in Accessibility settings (Settings -> Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom)
+* Trackpad tap to click (Settings -> Trackpad -> Point & Click -> Tap to click)
+* Mission control disable automatic rearrange of Spaces (Settings -> Mission Control -> Disable automatic arrange Spaces)
+* Show bluetooth on the menu bar (Settings -> Bluetooth -> Show Bluetooth in menu bar)
+* Disable adjust keyboard brightness in low light (Settings -> Keyboard -> Disable Adjust keyboard brightness in low light)
+* Scaled resolution (Settings -> Display -> Scaled -> More Space)
+* Disable automatically adjust screen brightness (Settings -> Displays -> Disable Automatically adjust brightness)
 * Map Caps Lock key to ESC (Settings -> Keyboard -> Modifier Keys)
-* Disable "Correct spelling automatically" (Settings -> Keyboard)
-* Disable "Guest User"
+* Disable "Correct spelling automatically" (Settings -> Keyboard -> Text -> Disable Correct spelling automatically)
 * Custom keyboard shortcuts: (Settings -> Keyboard -> Shortcuts)
-    - Configure shortcuts to navigate desktops with Control-Number
-    - Move focus to active or next window: ALT-CMD-Right
-    - Move focus to Dock: CMD-D
-* Custom App Shortcut: (Settings -> Keyboard -> Shortcuts -> App Shortcuts)
-    - Avoid Safari closing with CMD-W when having pin tabs:
-    - Application: "Safari", Menu Title: "Close Tab", Keyboard Shortcut: CMD-W
-        
-* Disable: Settings -> Mission Control -> When switching to an application, switch to a Space with open windows for the application
-* Sourcetree:
-    - Preferences -> Window Restoration -> Don't restore Windows on starup
-    - Disable: Preferences -> Window Restoration -> Offer to create bookmarks for newly opened repositories
+    - [Mission Control]: Configure shortcuts to navigate desktops with Control-Number
+    - [App Shortcuts]: Application: "Safari", Menu Title: "Close Tab", Keyboard Shortcut: CMD-W
+* Disable automatic space switching (Settings -> Mission Control -> When switching to an application, switch to a Space with open windows for the application)
+* Disable display dim (Settings -> Battery -> Battery -> Disable Slightly dim the display while on battery power)
+* Disable display off with Battery (Settings -> Battery -> Battery -> Turn display off after: Never
+* Disable display off with Power Adapter (Settings -> Battery -> Power Adapter -> Turn display off after: Never
+* Disable touchbar:
+    - Settings -> Keyboard -> Touch Bar shows -> Expanded Control Strip
+    - Settings -> Keyboard -> Press Fn key to -> Do Nothing
+    - Settings -> Keyboard -> Press and hold Fn key to -> Show F1, F2, etc. Keys
+    - Settings -> Keyboard -> Customise Control Strip -> Remove Siri Button
+* Remove all widgets (Notifications -> Edit Widgets -> Remove all) 
+* Enable Peace Mode (Control Center -> Do Not Disturb -> Always On)
+
+* iTerm
+    - Configure Meslo Font in iTerm2
+    - iTerm configure tab bar location to Bottom (Settings -> Appearance -> Tab Bar location)
+    - Configure Solarized Dark theme in iTerm (Settings -> Profiles -> Colors -> Color Presets)
+    - Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
+    - Silence bell in iTerm (Settings -> Profiles -> Terminal -> Silence bell)
+
 
 # Homebrew
 
@@ -107,43 +98,29 @@ ln -s `pwd`/dcordero.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndCol
 
 **Install Apps**
 ```
+brew install tmux
 brew install mc
-brew install imagemagick
-brew install hub
-brew install github/gh/gh
-brew install vim --with-override-system-vi --with-ruby
-brew install neovim
-brew install git
 brew install w3m
+brew install tig
 ```
 
 # Things to install from the AppStore:
 
-* [Pyenv](https://github.com/pyenv/pyenv)
-* [Rbenv](https://github.com/rbenv/rbenv)
-* [Giphy Capture](https://apps.apple.com/ch/app/giphy-capture-the-gif-maker/id668208984?l=en&mt=12)
-* [Kindle](https://apps.apple.com/ch/app/kindle/id405399194?l=en&mt=12)
-* [Omnifocus](https://apps.apple.com/ch/app/omnifocus-3/id1346203938?l=en&mt=12)
-* [Pixelmator](https://apps.apple.com/ch/app/pixelmator/id407963104?l=en&mt=12)
-* [The Unarchiver](https://apps.apple.com/ch/app/the-unarchiver/id425424353?l=en&mt=12)
-* [Magnet](https://itunes.apple.com/ch/app/magnet/id441258766?mt=12&ign-mpt=uo%3D4)
-* [Typeeto](https://apps.apple.com/ch/app/typeeto-remote-bt-keyboard/id970502923?l=en&mt=12)
-* [Vimari](https://apps.apple.com/us/app/vimari/id1480933944?ls=1&mt=12)
+* 1Password
+* Magnet
+* Giphy Capture
+* Pixelmator Classic
+* The Unarchiver
 
 # More things to install from the Internet:
 
-* [Node](https://nodejs.org)
+* [VLC](http://www.videolan.org/vlc/index.html)
 * [iTerm2](https://www.iterm2.com)
+* [Rbenv](https://github.com/rbenv/rbenv)
+* [Node](https://nodejs.org)
 * [Android Studio](https://developer.android.com/studio)
 * [Bagel](https://github.com/yagiz/Bagel)
 * [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
 * [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
-* [Lock](https://github.com/phelgo/Lock)
-* [Meslo LG S DZ Regular Font](https://github.com/powerline/fonts/blob/master/Meslo%20Dotted/Meslo%20LG%20S%20DZ%20Regular%20for%20Powerline.ttf)
-* [Spotify](https://www.spotify.com)
-* [Send to Kindle](https://www.amazon.com/gp/sendtokindle/mac)
 * [Xcode](https://developer.apple.com)
-* [OpenGithub plugin](https://github.com/Watson1978/OpenGithub)
-* [Visual Studio](https://www.visualstudio.com/downloads/)
-* [VLC](http://www.videolan.org/vlc/index.html)
 
