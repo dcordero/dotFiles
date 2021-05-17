@@ -84,6 +84,11 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Theme (Terminal -> Preferences -> General -> New window with Profile: Pro
     - Disable Bell (Terminal -> Preferences -> Profile -> Pro -> Advanced -> Disable Audible Bell)
     - Font (Terminal -> Preferences -> Profile -> Pro -> Text -> Menlo Regular for Powerline 12
+* Safari
+    - Safari -> Preferences -> General -> New windows open with: Empty Page
+    - Safari -> Preferences -> General -> New tabs open with: Empty Page
+    - Safari -> Preferences -> General -> Homepage: Empty
+    - Safari -> Preferences -> Autofill -> Disable all
 
 # Homebrew
 
