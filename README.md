@@ -126,4 +126,6 @@ brew install jq
 * [Inconsolate Font](https://fonts.google.com/specimen/Inconsolata)
 * [KeepingYouAwake](https://github.com/newmarcel/KeepingYouAwake)
 * [Xcode](https://developer.apple.com)
+* [Signal](https://signal.org/download/)
+* [NextCloud](https://nextcloud.com)
 
