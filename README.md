@@ -89,6 +89,8 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Safari -> Preferences -> General -> New tabs open with: Empty Page
     - Safari -> Preferences -> General -> Homepage: Empty
     - Safari -> Preferences -> Autofill -> Disable all
+* Finder
+    - Finder -> Preferences -> New Finder windows shows: Home
 
 # Homebrew
 
