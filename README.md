@@ -91,7 +91,9 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Safari -> Preferences -> Autofill -> Disable all
 * Finder
     - Finder -> Preferences -> New Finder windows shows: Home
-
+* Xcode
+    - Open in Place (Xcode -> Preferences -> Navigation -> Navigation Style -> Open in Place)
+   
 # Homebrew
 
 **Install Homebrew**
