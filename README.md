@@ -57,7 +57,6 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 * Disable "Guest User" (Settings -> Users & Groups)
 * Automatically hide and show the Dock (Settings -> Dock & Menu Bar -> Enable Automatically hide and show the Dock)
 * Hide recent Apps in Dock (Settings -> Dock & Menu Bar -> Disable Show recent applications in Dock)
-* Turn on zoom in Accessibility settings (Settings -> Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom)
 * Trackpad tap to click (Settings -> Trackpad -> Point & Click -> Tap to click)
 * Mission control disable automatic rearrange of Spaces (Settings -> Mission Control -> Disable automatic arrange Spaces)
 * Show bluetooth on the menu bar (Settings -> Bluetooth -> Show Bluetooth in menu bar)
@@ -94,6 +93,11 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Finder -> Preferences -> New Finder windows shows: Home
 * Xcode
     - Open in Place (Xcode -> Preferences -> Navigation -> Navigation Style -> Open in Place)
+* Accessibility
+    - Zoom (Settings -> Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom)
+    - Reduce transparency (Settings -> Accessibility -> Display -> Reduce transparency)
+
+
    
 # Homebrew
 
