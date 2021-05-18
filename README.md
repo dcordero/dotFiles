@@ -118,6 +118,7 @@ brew install wget
 * Giphy Capture
 * Pixelmator Classic
 * The Unarchiver
+* Amphetamine
 
 # More things to install from the Internet:
 
