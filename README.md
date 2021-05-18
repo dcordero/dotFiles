@@ -132,4 +132,5 @@ brew install wget
 * [Signal](https://signal.org/download/)
 * [NextCloud](https://nextcloud.com)
 * [Tunnelblick](https://tunnelblick.net)
+* [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
