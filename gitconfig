@@ -29,3 +29,5 @@
     
 [core]
     pager = less -FRX
+[pull]
+	rebase = false
