@@ -84,6 +84,7 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Disable Bell (Terminal -> Preferences -> Profile -> Pro -> Advanced -> Disable Audible Bell)
     - Font (Terminal -> Preferences -> Profile -> Pro -> Text -> Menlo Regular for Powerline 12
 * Safari
+    - Safari -> Preferences -> Search -> Search engine -> DuckDuck Go
     - Safari -> Preferences -> General -> New windows open with: Empty Page
     - Safari -> Preferences -> General -> New tabs open with: Empty Page
     - Safari -> Preferences -> General -> Homepage: Empty
@@ -96,9 +97,11 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
 * Accessibility
     - Zoom (Settings -> Accessibility -> Zoom -> Use scroll gesture with modifier keys to zoom)
     - Reduce transparency (Settings -> Accessibility -> Display -> Reduce transparency)
+* Firefox
+    - Firefox -> Preferences -> General -> Disable Always check if Firefox is your default browser
+    - Firefox -> Preferences -> Search -> Default search engine -> DuckDuckGo
+    - Firefox -> Preferences -> Search -> Search suggestions -> Disable Provide search suggestions
 
-
-   
 # Homebrew
 
 **Install Homebrew**
