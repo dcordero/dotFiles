@@ -127,6 +127,7 @@ brew install wget
 * Pixelmator Classic
 * The Unarchiver
 * Amphetamine
+* Apple Configurator
 
 # More things to install from the Internet:
 
@@ -142,4 +143,5 @@ brew install wget
 * [NextCloud](https://nextcloud.com)
 * [Tunnelblick](https://tunnelblick.net)
 * [Firefox](https://www.mozilla.org/en-US/firefox/new/)
+* [Charles Proxy](https://www.charlesproxy.com)
 
