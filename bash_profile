@@ -6,6 +6,7 @@ export TERM=xterm-color
 
 # Git
 alias gitowners='for branch in `git branch -r | grep -v HEAD`;do echo -e `git show --format="%an ---> %ai %ar" $branch | head -n 1` \\t$branch; done | sort -r'
+alias gitbase='git checkout main || git checkout master'
 
 # Thanks Apple
 alias clearDerivedData='rm -rf ~/Library/Developer/Xcode/DerivedData'
