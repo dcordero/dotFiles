@@ -101,6 +101,8 @@ ln -s ~/Library/Mobile\ Documents/com~apple~CloudDocs ~/iCloud
     - Firefox -> Preferences -> General -> Disable Always check if Firefox is your default browser
     - Firefox -> Preferences -> Search -> Default search engine -> DuckDuckGo
     - Firefox -> Preferences -> Search -> Search suggestions -> Disable Provide search suggestions
+* Disable "Quick Notes"
+    - Preferences -> Mission Control -> Hot Corners -> Disable quick note action 
 
 # Homebrew
 
