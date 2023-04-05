@@ -5,6 +5,7 @@
 
 [core]
     editor = vim
+    pager = less -FRX
     excludesfile = /Users/dcordero/.gitignore_global
 
 [color]
@@ -27,7 +28,5 @@
 [diff]
     tool = vimdiff
     
-[core]
-    pager = less -FRX
 [pull]
-	rebase = false
+    rebase = false
